@@ -1,0 +1,23 @@
+2020-06-15 06:55:41.847 +03:00 [Information] Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
+2020-06-15 06:55:41.866 +03:00 [Information] Microsoft.Hosting.Lifetime: Hosting environment: Development
+2020-06-15 06:55:41.868 +03:00 [Information] Microsoft.Hosting.Lifetime: Content root path: C:\Projects\privat\ApplicationRegister.WebApi\ApplicationRegister.WebApi
+2020-06-15 06:56:40.539 +03:00 [Information] Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
+2020-06-15 06:56:40.548 +03:00 [Information] Microsoft.Hosting.Lifetime: Hosting environment: Development
+2020-06-15 06:56:40.550 +03:00 [Information] Microsoft.Hosting.Lifetime: Content root path: C:\Projects\privat\ApplicationRegister.WebApi\ApplicationRegister.WebApi
+2020-06-15 06:56:55.364 +03:00 [Information] Microsoft.Hosting.Lifetime: Now listening on: https://localhost:5001
+2020-06-15 06:56:55.369 +03:00 [Information] Microsoft.Hosting.Lifetime: Now listening on: http://localhost:5000
+2020-06-15 06:56:55.371 +03:00 [Information] Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
+2020-06-15 06:56:55.372 +03:00 [Information] Microsoft.Hosting.Lifetime: Hosting environment: Development
+2020-06-15 06:56:55.374 +03:00 [Information] Microsoft.Hosting.Lifetime: Content root path: C:\Projects\privat\ApplicationRegister.WebApi\ApplicationRegister.WebApi
+2020-06-15 07:12:23.045 +03:00 [Information] Microsoft.Hosting.Lifetime: Now listening on: https://localhost:5001
+2020-06-15 07:12:23.051 +03:00 [Information] Microsoft.Hosting.Lifetime: Now listening on: http://localhost:5000
+2020-06-15 07:12:23.053 +03:00 [Information] Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
+2020-06-15 07:12:23.054 +03:00 [Information] Microsoft.Hosting.Lifetime: Hosting environment: Development
+2020-06-15 07:12:23.055 +03:00 [Information] Microsoft.Hosting.Lifetime: Content root path: C:\Projects\privat\ApplicationRegister.WebApi\ApplicationRegister.WebApi
+2020-06-15 07:12:43.389 +03:00 [Information] ApplicationRegister.WebApi.Controllers.ApplicationController: Got request from ::1 to get informtion about Application 5 for department undefined
+2020-06-15 07:12:43.391 +03:00 [Information] ApplicationRegister.WebApi.Controllers.ApplicationController: Sent request to service to get information about Application 5 for department undefined
+2020-06-15 07:12:45.755 +03:00 [Information] ApplicationRegister.WebApi.Controllers.ApplicationController: Received success response from service to get information about Application 5 for department undefined
+2020-06-15 07:13:54.188 +03:00 [Error] ApplicationRegister.WebApi.Controllers.ApplicationController: Client Id doesn't have a positive value
+2020-06-15 07:14:38.913 +03:00 [Information] ApplicationRegister.WebApi.Controllers.ApplicationController: Got request to create Application from ::1
+2020-06-15 07:14:38.916 +03:00 [Information] ApplicationRegister.WebApi.Controllers.ApplicationController: Sent request to service to create Application ApplicationRegister.WebApi.Models.ApplicationModel
+2020-06-15 07:14:38.956 +03:00 [Information] ApplicationRegister.WebApi.Controllers.ApplicationController: Received success response from service to create Application
