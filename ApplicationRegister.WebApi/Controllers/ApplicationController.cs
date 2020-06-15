@@ -33,7 +33,7 @@ namespace ApplicationRegister.WebApi.Controllers
         }
 
         [HttpGet("{id}/{address?}")]
-        public async Task<IEnumerable<ApplicationModel>> GetApplications(int id, string address)
+        public async Task<IActionResult> GetApplications(int id, string address)
         {
             var ip = accessor.ActionContext.HttpContext.Connection.RemoteIpAddress;
             string departmentAddress = string.IsNullOrEmpty(address) ? "undefined" : address;
@@ -55,17 +55,17 @@ namespace ApplicationRegister.WebApi.Controllers
                 else
                 {
                     logger.LogInformation("Cannot find information about Application {id} for department {departmentAddress}", id, departmentAddress);
-                    return (IEnumerable<ApplicationModel>)NotFound();
+                    return NotFound();
                 }
 
             }
             catch (System.Exception exception)
             {
                 logger.LogError(exception.Message);
-                return (IEnumerable<ApplicationModel>)NotFound();
+                return NotFound();
             }
 
-            return applications;
+            return CreatedAtAction(nameof(GetApplications), applications);
         }
 
         [HttpPost]

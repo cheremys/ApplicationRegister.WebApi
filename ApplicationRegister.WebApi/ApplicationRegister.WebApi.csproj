@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>69add17d-d7bd-4d91-8a5a-2e9831ad8307</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
   </PropertyGroup>
 
   <ItemGroup>
@@ -9,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.9" />
     <PackageReference Include="NetEscapades.Extensions.Logging.RollingFile" Version="2.2.0" />
     <PackageReference Include="RabbitMQ.Client" Version="6.1.0" />
   </ItemGroup>
